@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "full_name": "Naveed Fida",
+    "email": "nf@example.com",
+    "phone_number": "12345678901",
+    "tags": "work,friend"
+  },
+  {
+    "id": 2,
+    "full_name": "Victor Reyes",
+    "email": "vpr@example.com",
+    "phone_number": "09876543210",
+    "tags": "work,friend"
+  },
+  {
+    "id": 3,
+    "full_name": "Pete Hanson",
+    "email": "ph@example.com",
+    "phone_number": "54321098761",
+    "tags": ""
+  },
+  {
+    "full_name": "Test",
+    "phone_number": "0123456755",
+    "email": "a@b.com",
+    "tags": "apples,pears,bananas",
+    "id": 5
+  },
+  {
+    "full_name": "john",
+    "phone_number": "1234567890",
+    "email": "a@b.com",
+    "tags": "apples,pears,friend",
+    "id": 8
+  },
+  {
+    "full_name": "jim",
+    "phone_number": "1234567890",
+    "email": "bob@gmail.com",
+    "tags": "",
+    "id": 9
+  },
+  {
+    "full_name": "Jordan Whistler",
+    "phone_number": "0123456789",
+    "email": "jordan@joemama",
+    "tags": "chess",
+    "id": 11
+  },
+  {
+    "full_name": "Stephen Gaban",
+    "phone_number": "012345678",
+    "email": "hi@web.com",
+    "tags": "foodlover,applesauce",
+    "id": 12
+  },
+  {
+    "full_name": "asdf",
+    "phone_number": "1234",
+    "email": "a@b.com",
+    "tags": null,
+    "id": 13
+  }
+]
