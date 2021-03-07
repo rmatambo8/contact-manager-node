@@ -1,0 +1,3 @@
+INSERT INTO contacts(info)
+VALUES($1)
+RETURNING *

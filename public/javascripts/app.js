@@ -131,9 +131,10 @@ class App {
     let $li = $(event.target).closest('li')
     let self = this;
     self.currentId = $li.attr('data-id');
+    const full_name = $li.attr('data-name');
     let data = {
       id: self.currentId,
-      full_name: $li.find('input.full_name').val(),
+      full_name,
       email: $li.find('input.email').val(),
       phone_number: $li.find('input.phone_number').val(),
       tags: self.format($li.find('input.tags').val()),
@@ -143,8 +144,7 @@ class App {
       self.toggleEditMode(event)
       let newLi = document.createElement('li')
       newLi.classList.add('contact')
-      let html = self.templates.single_contact(data) // <li> data </li>
-      // $(newLi).html(html) // <li>da<li>data</li>ta</li>
+      let html = self.templates.single_contact(data)
       $li.replaceWith(html)
       self.renderTags();
     }).fail(function () {
